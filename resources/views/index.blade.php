@@ -13,11 +13,11 @@
             <a href="https://blog.antoninhrlt.com" class="button">Blog</a>
         </button>
 
-        <button class="bg-blue text-white py-2 px-4">
+        <button class="bg-blue text-white py-2 my-2 px-4">
             <a href="https://github.com/junon-corp" class="button">Junon</a>
         </button>
 
-        <button class="bg-blue text-white py-2 px-4">
+        <button class="bg-blue text-white py-2 my-2 px-4">
             <a href="https://github.com/antoninhrlt" class="button">Github</a>
         </button>
     </div>
