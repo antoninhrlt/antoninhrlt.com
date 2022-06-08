@@ -9,12 +9,18 @@ module.exports = {
       'dark': '#0d1117',
       'white': '#ffffff',
       'lightgray': '#f5f5f5',
+      'gray': '#d5d5d5',
       'blue': '#094f62'
     },
     fontFamily: {
       sans: ['Verdana', 'sans-serif'],
     },
     extend: {},
+  },
+  variants: {
+    extend: {
+      animation: ['group-hover'],
+    },
   },
   plugins: [],
 }
