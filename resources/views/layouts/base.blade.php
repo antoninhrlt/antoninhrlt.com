@@ -9,7 +9,12 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
-    <body class="flex flex-col items-center justify-center text-center w-1/4 h-full bg-dark">
+    <body class="flex flex-col items-center justify-center text-center h-full bg-dark">
         @yield('content')
+    
+        <p class="text-gray my-2 font-sans">
+            <span style="text-decoration: underline;">nav</span> : 
+            @yield('nav')
+        </p>
     </body>
 </html>
