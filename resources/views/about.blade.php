@@ -5,27 +5,39 @@
 @section('content')
     <h1 class="text-white text-3xl">About me</h1>
     <p class="text-white">
-        My name is Antonin Hérault, I live in France<br>
-        I enjoy system development, embedded systems & 3D rendering<br>
-        Passionate about Astronomy
+        Interested in sysdev, embedded systems & 3D rendering. Astronomy lover<br>
+        Sometimes I play with <a href="https://blender.org" style="text-decoration: underline;">Blender</a> for 3D modeling<br>
+        Sovereignty and open-source defender, pay attention to the politic trends and EU decisions<br>
+        Fell in love with Rust but still like my old friend C<br>
     </p>
-    <br>
 
-    <h1 class="text-white text-3xl">Languages</h1>
-    <p class="text-white">
-        <b>French</b> (native), <b>English</b> (fluent)<br>
-        <i>Getting by in...</i> <b>Spanish</b> and <b>Russian</b> (written)<br>
-        <i>Learning...</i> <b>Dutch</b> and <b>German</b>
-    </p>
-    <br>
+    <h2 class="text-white text-2xl py-2">Languages</h2>
+    
+    <table class="w-full table-auto text-gray border-collapse border text-center rounded-lg">
+        <tr>
+            <th class="border bg-blue">Native/fluent</td>
+            <td class="border">French 🇫🇷</td>
+            <td class="border">English 🇬🇧</td>
+        </tr>
+        <tr>
+            <th class="border bg-blue">Learning</td>
+            <td class="border">German 🇩🇪</td>
+            <td class="border">Russian 🇷🇺</td>
+        </tr>
+        <tr class="bg-dark text-darkgray">
+            <th class="border">Some basics</td>
+            <td class="border">Spanish 🇪🇸</td>
+            <td class="border">Dutch 🇳🇱</td>
+        </tr>
+    </table>
 
-    <h1 class="text-white text-3xl">Useful links</h1>
+    <h2 class="text-white text-2xl py-2">Hyperlinks</h2>
+
     <p class="text-white">
-        Github : <a href="https://github.com/antoninhrlt" style="text-decoration: underline;">@antoninhrlt</a><br>
-        Twitter : <a href="https://twitter.com/antoninhrltdev" style="text-decoration: underline;">@antoninhrltdev</a><br>
-        Blog : <a href="https://blog.antoninhrlt.com" style="text-decoration: underline;">blog.antoninhrlt.com</a>
+        <a href="https://github.com/antoninhrlt">github.com/antoninhrlt</a><br>
+        <a href="https://twitter.com/antoninhrltdev">twitter.com/antoninhrltdev</a><br>
+        <a href="https://blog.antoninhrlt.com">blog.antoninhrlt.com</a>
     </p>
-    <br>
 @stop
 
 @section('nav')
